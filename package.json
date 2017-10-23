@@ -6,9 +6,9 @@
   "author": "dva <denisva@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "micro": "^8.0.1"
+    "micro": "^9.0.0"
   },
   "devDependencies": {
-    "standard": "^10.0.2"
+    "standard": "^10.0.3"
   }
 }
