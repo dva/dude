@@ -1,5 +1,8 @@
 {
   "name": "wip",
   "alias": "dude",
-  "type": "docker"
+  "type": "docker",
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
