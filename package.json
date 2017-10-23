@@ -5,10 +5,15 @@
   "repository": "git@github.com:dva/dude.git",
   "author": "dva <denisva@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
   "dependencies": {
     "micro": "^9.0.0"
   },
   "devDependencies": {
+    "micro-dev": "^1.2.3",
     "standard": "^10.0.3"
   }
 }
