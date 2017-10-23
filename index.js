@@ -1,3 +1,1 @@
-module.exports = () => ({
-  date: new Date()
-})
+module.exports = () => (Date.now())
