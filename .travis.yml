@@ -5,3 +5,5 @@ before_install:
   - yarn versions
 install:
   - yarn --frozen-lockfile
+before_script:
+  - npx standard
