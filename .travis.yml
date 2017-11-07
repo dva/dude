@@ -1,0 +1,3 @@
+language: javascript
+install:
+  - yarn --frozen-lockfile
