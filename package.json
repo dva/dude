@@ -7,13 +7,14 @@
   "license": "MIT",
   "scripts": {
     "start": "micro",
-    "dev": "micro-dev"
+    "dev": "micro-dev",
+    "lint": "standard"
   },
   "dependencies": {
     "micro": "^9.1.0"
   },
   "devDependencies": {
     "micro-dev": "^2.2.0",
-    "standard": "^10.0.3"
+    "standard": "^11.0.0"
   }
 }

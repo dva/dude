@@ -6,4 +6,4 @@ before_install:
 install:
   - yarn --frozen-lockfile
 before_script:
-  - npx standard
+  - yarn lint
