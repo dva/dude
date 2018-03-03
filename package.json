@@ -10,13 +10,15 @@
     "dev": "micro-dev src",
     "lint": "standard",
     "lint:fix": "standard --fix",
-    "test": "nyc ava && nyc report --reporter=lcov"
+    "test": "nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "micro": "^9.1.0"
   },
   "devDependencies": {
     "ava": "^0.25.0",
+    "coveralls": "^3.0.0",
     "isomorphic-fetch": "^2.2.1",
     "micro-dev": "^2.2.0",
     "nyc": "^11.4.1",

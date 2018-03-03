@@ -7,3 +7,5 @@ install:
   - yarn --frozen-lockfile
 before_script:
   - yarn lint
+after_script:
+  - yarn coverage
