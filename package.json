@@ -9,6 +9,7 @@
     "start": "micro src",
     "dev": "micro-dev src",
     "lint": "standard",
+    "lint:fix": "standard --fix",
     "test": "ava"
   },
   "dependencies": {
