@@ -8,13 +8,17 @@
   "scripts": {
     "start": "micro src",
     "dev": "micro-dev src",
-    "lint": "standard"
+    "lint": "standard",
+    "test": "ava"
   },
   "dependencies": {
     "micro": "^9.1.0"
   },
   "devDependencies": {
+    "ava": "^0.25.0",
     "micro-dev": "^2.2.0",
-    "standard": "^11.0.0"
+    "request-promise": "^4.2.2",
+    "standard": "^11.0.0",
+    "test-listen": "^1.1.0"
   }
 }
