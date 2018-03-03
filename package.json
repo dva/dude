@@ -6,8 +6,8 @@
   "author": "dva <denisva@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "micro",
-    "dev": "micro-dev",
+    "start": "micro src",
+    "dev": "micro-dev src",
     "lint": "standard"
   },
   "dependencies": {

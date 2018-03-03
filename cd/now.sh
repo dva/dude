@@ -2,8 +2,8 @@
 
 set -ex
 
-now -d -f -p -C
+now --debug --force --public --no-clipboard
 
-now alias -d
+now alias --debug
 
-now rm wip -d -y -s
+now rm wip --debug --yes -s-safe
