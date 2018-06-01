@@ -1,14 +1,11 @@
-/* global fetch */
-
 const micro = require('micro')
 const test = require('ava')
+const fetch = require('node-fetch')
 const listen = require('test-listen')
-
-require('isomorphic-fetch')
 
 const response = require('../src')
 
-test('my endpoint', async t => {
+test('check endpoint', async t => {
   const service = micro(async (req, res) => {
     micro.send(res, 200, response())
   })
