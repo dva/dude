@@ -15,6 +15,6 @@ test('check endpoint', async t => {
     .then(res => res.text())
     .then(body => body)
 
-  t.deepEqual(body, `build: ${new Date().toUTCString()}`)
+  t.deepEqual(body, `from: ${new Date().toUTCString()}`)
   service.close()
 })
