@@ -14,15 +14,15 @@
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
-    "micro": "^9.1.0"
+    "micro": "^9.3.4"
   },
   "devDependencies": {
-    "ava": "^0.25.0",
-    "coveralls": "^3.0.0",
+    "ava": "^3.8.1",
+    "coveralls": "^3.1.0",
     "micro-dev": "^3.0.0",
-    "node-fetch": "^2.1.2",
-    "nyc": "^12.0.1",
-    "standard": "^11.0.0",
+    "node-fetch": "^2.6.0",
+    "nyc": "^15.0.1",
+    "standard": "^14.3.3",
     "test-listen": "^1.1.0"
   }
 }
